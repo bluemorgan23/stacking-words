@@ -6,7 +6,9 @@ let sentence = ["The", "walrus", "danced", "through", "the", "trees", "in", "the
     the array as the sole argument. It should iterate over the array
     and output the words to the browser console.
 */
-function addExcitement(theWordArray, char, num) {
+
+//Changed this function expression to arrow expression
+const addExcitement = (theWordArray, char, num) => {
 
     // Each time the for loop executes, you're going to add one more word to this string
     let buildMeUp = "";
